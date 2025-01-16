@@ -42,10 +42,16 @@ LANDING
 /////////////////////////////////////////////
 */
 .landing {
-    height: 100vh;
+/*    height: 100vh;
     background-image: linear-gradient(    
         rgba(0, 0, 0, 0.4),
         rgba(0, 0, 0, 0.41)),
+    url(../img/hero.jpg);*/
+
+    height: 100vh;
+    background-image: linear-gradient(    
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.31)),
     url(../img/hero.jpg);
 
     background-size: cover;
@@ -57,7 +63,8 @@ LANDING
 
     .landing__header {
         width: 85%;
-        color: var(--color-grey-light-2);
+        /*color: var(--color-grey-light-2);*/
+        color: #f4f2f2;
         position: absolute;
         top: 50%;
         left: 50%;
@@ -69,8 +76,8 @@ LANDING
         .landing__header-text {
             font-size: 6rem;
             text-shadow: 0px 4px 3px rgba(0,0,0,.4),
-                        0px 8px 13px rgba(0,0,0,.1),
-                        0px 18px 23px rgba(0,0,0,.1);
+                        0px 8px 13px rgba(0,0,0,.6),
+                        0px 18px 23px rgba(0,0,0,.6);
 
             animation: moveInLeft 1.5s ease-out;
 
@@ -87,7 +94,7 @@ LANDING
             font-size: 3rem;
             margin-bottom: .5rem;
             text-shadow: 0px 4px 3px rgba(0,0,0,.4),
-                        0px 8px 13px rgba(0,0,0,.1);
+                        0px 8px 13px rgba(0,0,0,.6);
             
             animation: moveInRight 1.5s ease-out;
 
