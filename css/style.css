@@ -31,7 +31,7 @@ body {
     font-family: 'Lato', sans-serif;
     font-display: swap;
     line-height: 1.6;
-    /*background: red;*/
+    background: orange;
     
 }
 
@@ -51,7 +51,8 @@ LANDING
     background-size: cover;
     background-position: top;
     position: relative;
-    animation: imageAnimation 1s linear;    
+    animation: imageAnimation 1s linear;
+    
     
 
     .landing__header {
