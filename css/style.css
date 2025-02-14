@@ -96,6 +96,7 @@ NAV
             height: 0;
             width: 0;
         }
+
 }
 
 .nav-items {
@@ -143,8 +144,8 @@ LANDING
 .landing {
     height: 100vh;
     background-image: linear-gradient(    
-        rgba(0, 0, 0, 0.24),
-        rgba(0, 0, 0, 0.25)),
+        rgba(0, 0, 0, 0.21),
+        rgba(0, 0, 0, 0.22)),
     url(../img/hero.jpg);
 
     background-size: cover;
