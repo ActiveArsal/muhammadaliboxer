@@ -372,6 +372,14 @@ BUTTON
 CONTACT
 /////////////////////////////////////////////
 */
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100vh;
+}
+
 .contact {
     background-color: #fff;
 }
@@ -465,3 +473,4 @@ CONTACT
         font-size: 2rem;
     }
 }
+
