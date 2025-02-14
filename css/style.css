@@ -84,7 +84,8 @@ NAV
 }
 
 .nav-logo {
-    background-image: url("../img/logo.png");
+    background-image: url("../img/logo.PNG");
+    
     display: block;
     z-index: 200;
     height: 60px;
