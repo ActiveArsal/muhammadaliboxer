@@ -282,7 +282,11 @@ ABOUT
     text-align: center;
     background: rgba(249, 249, 249, .9);
     color: #000;
-    box-shadow: 0 2rem 4rem rgba(0,0,0,.15);
+    border-radius: 10px;
+    /*box-shadow: 0 2rem 4rem rgba(0,0,0,.15);*/
+    box-shadow: 0px 0px 5px 8px rgba(0,0,0,0.25);
+    -webkit-box-shadow: 0px 0px 5px 8px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0px 0px 5px 8px rgba(0,0,0,0.25);
 
     @media only screen and (max-width: 1100px) {
         width: 60%;
@@ -322,9 +326,9 @@ ABOUT
     .card-header {
         font-size: 4rem;
         letter-spacing: 1px;
-        padding-bottom: 1rem;
-        margin-bottom: 1rem;
-        border-bottom: 1px solid rgba(204, 204, 204, .8);
+        /*padding-bottom: 1rem;*/
+        /*margin-bottom: 1rem;*/
+        /*border-bottom: 1px solid rgba(204, 204, 204, .8);*/
         margin: 0 auto;
         width: 80%;
 
@@ -335,6 +339,25 @@ ABOUT
         @media only screen and (max-width: 600px) {
             font-size: 2.5rem;
         }
+    }
+
+    .card-subheader {
+        font-size: 3.5rem;
+        letter-spacing: 1px;
+        padding-bottom: 1rem;
+        margin-bottom: 1rem;
+        border-bottom: 1px solid rgba(204, 204, 204, .8);
+        margin: 0 auto;
+        width: 80%;
+
+        @media only screen and (max-width: 900px) {
+            font-size: 2.5rem;
+        }
+
+        @media only screen and (max-width: 600px) {
+            font-size: 2rem;
+        }
+
     }
 
     .card-description {
@@ -418,7 +441,8 @@ BUTTON
 */
 .button {
     font-size: 1.75rem;
-    background: linear-gradient(to bottom right, red, orange);
+    /*background: linear-gradient(to bottom right, red, orange);*/
+    background-color: #cc254f; 
     color: #fff;
 
     position: relative;
